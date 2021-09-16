@@ -1,15 +1,16 @@
 package co.za.appbrewery.worklocal.ui.gallery
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
 import co.za.appbrewery.worklocal.R
 import co.za.appbrewery.worklocal.databinding.FragmentGalleryBinding
+import co.za.appbrewery.worklocal.ui.activities.resume.ListResume
+import com.google.android.material.button.MaterialButton
 
 class GalleryFragment : Fragment() {
 
@@ -24,22 +25,17 @@ class GalleryFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
+
     ): View? {
         galleryViewModel =
             ViewModelProvider(this).get(GalleryViewModel::class.java)
-
         _binding = FragmentGalleryBinding.inflate(inflater, container, false)
-        val root: View = binding.root
+        return binding.root
 
-        val textView: TextView = binding.textGallery
-        galleryViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
-        return root
     }
-
     override fun onDestroyView() {
         super.onDestroyView()
         _binding = null
     }
+
 }

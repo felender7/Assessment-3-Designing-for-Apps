@@ -4,9 +4,11 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.10520833333333333" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/drawable/ic_folder.xml" value="0.1296875" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/drawable/ic_user.xml" value="0.1296875" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/drawable/side_nav_bar.xml" value="0.10520833333333333" />
-        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_create_resume.xml" value="0.22" />
-        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_details_resume.xml" value="0.474937343358396" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_create_resume.xml" value="0.33" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_details_resume.xml" value="0.3099315068493151" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_list_resume.xml" value="0.22" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/activity_splash_screen.xml" value="0.5" />
@@ -17,8 +19,8 @@
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/drop_down_list_resume.xml" value="0.1802536231884058" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/dropdown_item_resume.xml" value="0.16770833333333332" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/fragment_gallery.xml" value="0.1911231884057971" />
-        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/fragment_home.xml" value="0.33" />
-        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/fragment_slideshow.xml" value="0.1" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/fragment_home.xml" value="0.22" />
+        <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/fragment_slideshow.xml" value="0.25" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/gender.xml" value="0.1" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/list_item_resume.xml" value="0.1802536231884058" />
         <entry key="..\:/Users/beans/AndroidStudioProjects/WorkLocal/app/src/main/res/layout/nav_header_main.xml" value="0.25" />

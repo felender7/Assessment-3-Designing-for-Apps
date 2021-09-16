@@ -11,6 +11,16 @@ class ListResume : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list_resume)
 
+        //actionbar
+        val actionbar = supportActionBar
+
+        //set actionbar title
+        "Resume".also { actionbar!!.title = it }
+
+        //set back button
+        actionbar?.setDisplayHomeAsUpEnabled(true)
+        actionbar?.setDisplayHomeAsUpEnabled(true)
+
         //hooks
         val tvGetStarted = findViewById<TextView>(R.id.tvGetStartd)
 
@@ -19,5 +29,10 @@ class ListResume : AppCompatActivity() {
                 startActivity(it)
             }
         }
+    }
+
+    override fun onSupportNavigateUp(): Boolean {
+        onBackPressed()
+        return true
     }
 }

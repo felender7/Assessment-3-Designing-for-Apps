@@ -13,22 +13,31 @@
     android:orientation="vertical"
     android:padding="10dp"
     tools:context=".ui.activities.resume.CreateResume">
-
     <androidx.cardview.widget.CardView
-        android:layout_width="100dp"
-        android:layout_height="100dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="20dp"
-        app:cardCornerRadius="50dp">
 
-        <ImageView
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:layout_gravity="center_vertical|center_horizontal"
-            android:src="@drawable/ic_profile" />
+        android:backgroundTint="@color/silver"
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+        <androidx.cardview.widget.CardView
+            android:layout_marginTop="10dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="50dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/ic_profile" />
+
+        </androidx.cardview.widget.CardView>
 
     </androidx.cardview.widget.CardView>
+
 
     // Select Identification type
 
@@ -56,6 +65,22 @@
         android:hint="ID/Passport">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:inputType="number"
+            android:maxLength="13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/tvDOB"
+        style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:hint="mm/dd/yyyy">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:maxLength="10"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
@@ -70,6 +95,8 @@
         android:hint="Phone">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:maxLength="10"
+           android:inputType="phone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 

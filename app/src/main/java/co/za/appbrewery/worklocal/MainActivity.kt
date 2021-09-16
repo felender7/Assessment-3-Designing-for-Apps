@@ -14,6 +14,8 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import co.za.appbrewery.worklocal.databinding.ActivityMainBinding
 import co.za.appbrewery.worklocal.ui.activities.resume.ListResume
+import co.za.appbrewery.worklocal.ui.gallery.GalleryFragment
+import co.za.appbrewery.worklocal.ui.gallery.GalleryViewModel
 import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
