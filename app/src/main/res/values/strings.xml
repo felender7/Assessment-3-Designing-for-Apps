@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Work Local</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Tlangelani Hlungwani</string>
+    <string name="nav_header_subtitle">felender7@gmail.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Resume</string>
+    <string name="menu_slideshow">References </string>
+    <string name="menu_documents">Documents</string>
+    <string name="menu_find_jobs">Find Jobs</string>
+    <string name="menu_applied_jobs"> Applied Jobs </string>
+    <string name="menu_summery"> Summary</string>
+    <string name="welcome_to_work_job_placement">Welcome to @work job placement</string>
+</resources>
