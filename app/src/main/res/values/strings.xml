@@ -15,4 +15,46 @@
     <string name="menu_applied_jobs"> Applied Jobs </string>
     <string name="menu_summery"> Summary</string>
     <string name="welcome_to_work_job_placement">Welcome to @work job placement</string>
+
+    <string-array name="id_passport">
+        <item>ID</item>
+        <item>Passport</item>
+    </string-array>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="ethnicity">
+        <item >Black</item>
+        <item >Coloured</item>
+        <item >Indian</item>
+        <item >White</item>
+        <item >Other</item>
+    </string-array>
+
+    <string-array name="disability">
+        <item>Not Disable</item>
+        <item>Disable</item>
+    </string-array>
+
+    <string-array name="job_function">
+        <item >Accounting, Auditing</item>
+        <item >Admin, Office Support &amp; Services</item>
+        <item >Agriculture, Forestry, Environmental &amp; Fishing</item>
+        <item >Banking, Finance, Insurance &amp; Stockbroking</item>
+        <item >Chemical , Petrochemical, Oil &amp; Gas</item>
+    </string-array>
+
+
+    <string-array name="education">
+        <item>Less than high-school</item>
+        <item>Matric</item>
+        <item>Higher Certificate</item>
+        <item>Diploma</item>
+        <item>Degree</item>
+    </string-array>
+
 </resources>

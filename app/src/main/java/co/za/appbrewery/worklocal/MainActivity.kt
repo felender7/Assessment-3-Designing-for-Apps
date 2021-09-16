@@ -1,5 +1,6 @@
 package co.za.appbrewery.worklocal
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import com.google.android.material.snackbar.Snackbar
@@ -12,6 +13,8 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import co.za.appbrewery.worklocal.databinding.ActivityMainBinding
+import co.za.appbrewery.worklocal.ui.activities.resume.ListResume
+import com.google.android.material.button.MaterialButton
 
 class MainActivity : AppCompatActivity() {
 
@@ -39,6 +42,18 @@ class MainActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+
+
+        //hooks
+        val btnResume = findViewById<MaterialButton>(R.id.bntResume)
+
+        //Go to resume dashboard
+        btnResume.setOnClickListener {
+            Intent(this,ListResume::class.java).also {
+                startActivity(it)
+            }
+        }
     }
 
     override fun onCreateOptionsMenu(menu: Menu): Boolean {
